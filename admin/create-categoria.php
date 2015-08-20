@@ -22,7 +22,7 @@ if ( !empty($nome) ) {
         
         //die($query);
   if (mysql_query($query) or mysql_error()) {
-    $msg = "Matéria postada com sucesso!";
+    $msg = "Categoria postada com sucesso!";
   }
 
 }
@@ -104,7 +104,7 @@ if ( !empty($nome) ) {
             <div class="form-group">
               <label class="col-md-4 control-label" for="postar"></label>
               <div class="col-md-4">
-                <button id="postar" name="postar" class="btn btn-primary">Postar</button>
+                <button id="postar" name="postar" class="btn btn-primary">Adicionar</button>
               </div>
             </div>
 

@@ -106,7 +106,7 @@ if(!empty($nome) && !empty($id)){
             <div class="form-group">
               <label class="col-md-4 control-label" for="postar"></label>
               <div class="col-md-4">
-                <button id="postar" name="postar" class="btn btn-primary">Postar</button>
+                <button id="postar" name="postar" class="btn btn-primary">Atualizar</button>
               </div>
             </div>
 
